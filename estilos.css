@@ -1,156 +1,160 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    background-color: black;
+body {
+  background-color: black;
 }
 
-header{
-    width: 100%;
-    height: 100px;
-    background-color: rgb(145, 41, 201);
-}
-nav{
-    padding: 20px;
-    text-align: center;
-    
+header {
+  width: 100%;
+  height: 100px;
+  background-color: #9129c9;
 }
 
-nav a{
-    color: white;
-    font-size: 30px;
-    text-decoration:none;
+nav {
+  padding: 20px;
+  text-align: center;
 }
 
-nav h1{
-    display: inline;
+nav a {
+  color: white;
+  font-size: 30px;
+  text-decoration: none;
 }
 
-nav ul{
-    display: inline;
+nav h1 {
+  display: inline;
 }
 
-nav li{
-    display: inline;
-    padding: 20px;
+nav ul {
+  display: inline;
 }
 
-#anuncio{
-    margin: 50px 0px 0px 50px;
+nav li {
+  display: inline;
+  padding: 20px;
 }
 
-.subastas{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding: 50px;
-    gap: 50px;
+#anuncio {
+  margin: 50px 0px 0px 50px;
 }
 
-.cardSubasta{
-    border-radius: 20px;
-    padding: 10px;
-    background-color: white;
-    width: 300px;
+.subastas {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  padding: 50px;
+  gap: 50px;
 }
 
-.cardSubasta:hover{
-    border: 5px solid #f3b91a;
+.cardSubasta {
+  border-radius: 20px;
+  padding: 10px;
+  background-color: white;
+  width: 300px;
 }
 
-.cardSubasta img{
-    display: block;
-    border-radius: 10px;
-    width: auto;
-    max-height: 350px;
-    margin: auto;
+.cardSubasta img {
+  display: block;
+  border-radius: 10px;
+  width: auto;
+  max-height: 350px;
+  margin: auto;
 }
 
-.cardSubasta h3{
-    text-align: center;
-    padding: 20px;
+.cardSubasta h3 {
+  text-align: center;
+  padding: 20px;
 }
 
-.cardSubasta h4{
-    text-align: center;
-    padding: 10px;
-    color: gray;
+.cardSubasta h4 {
+  text-align: center;
+  padding: 10px;
+  color: gray;
 }
 
-.cardSubasta button{
-    display: block;
-    border-radius: 10px;
-    margin: auto;
+.cardSubasta button {
+  display: block;
+  border-radius: 10px;
+  margin: auto;
 }
 
-.subasta h4{
-    color: rgb(174, 175, 175);
+.cardSubasta:hover {
+  border: 5px solid #f3b91a;
 }
 
-button{
-    background-color: #f3b91a; 
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    display: inline-block;
-    font-size: 16px;
+.subasta h4 {
+  color: #aeafaf;
 }
 
-input{
-    width: 50%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
+button {
+  background-color: #f3b91a;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
 }
 
-label{
-    color: white;
+input {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
-footer{
-    width: 100%;
-    height: 150px;
-    background-color: rgb(145, 41, 201);
-    color: white;
+label {
+  color: white;
 }
 
-footer a{
-    color: white;
-    font-size: 15px;
-    text-decoration:none;
+footer {
+  width: 100%;
+  height: 150px;
+  background-color: #9129c9;
+  color: white;
+  text-align: center;
 }
 
-h2{
-    color: white;
-}
-footer{
-    text-align: center;
-}
-
-footer ul{
-    margin: auto;
-    padding: 20px;
+footer a {
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
 }
 
-footer li{
-    display: inline;
-    padding: 20px;
-}
- 
-footer h2{
-    padding: 10px;
+footer ul {
+  margin: auto;
+  padding: 20px;
 }
 
-@media all and (max-width: 1200px){
-    .subastas{
+footer li {
+  display: inline;
+  padding: 20px;
+}
+
+footer h2 {
+  padding: 10px;
+}
+
+h2 {
+  color: white;
+}
+
+@media all and (max-width: 1200px) {
+  .subastas {
+    -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
-    }
+  }
 }
 
-@media all and (max-width: 800px){
-    .subastas{
+@media all and (max-width: 800px) {
+  .subastas {
+    -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
-    }
+  }
 }
+/*# sourceMappingURL=estilos.css.map */
